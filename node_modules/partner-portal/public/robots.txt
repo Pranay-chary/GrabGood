@@ -1,0 +1,10 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow sensitive areas
+Disallow: /settings
+Disallow: /profile
+Disallow: /orders
+Disallow: /order-details
+Disallow: /analytics 
